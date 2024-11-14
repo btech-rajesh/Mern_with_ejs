@@ -1,0 +1,2 @@
+Nodejs->process stores all the ongoining information regarding nodejs process/task
+process(obj)in node->argv(obj) which return an array for an nodejs current working path
