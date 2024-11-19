@@ -1,0 +1,51 @@
+// appendFile.use()->accept callback function compulsary and a middleware function
+
+
+//middleware is a function/method=>har bar incoming reuest (req) pe run krta hai jb bhi aapka browser/user kisi bhi type ki request bhejta hai
+
+//server => 2 format mai store krega  and server will store 2 objects i.e-req and res
+//like mene req kri browser ko and in the object form it goes
+// and return it res(response) and return in object format
+
+// -------------------------------------------------------------
+
+//Routing 
+// 1.
+// At diffrent path rather than middleware .use() means at diffrent one we use a routing concepts---
+//for these path we get diffrent outputs
+
+// 2.
+//to achieve this we use routing
+//for each incoming req we will get a diffrent request using routing
+
+//Impt-:
+//for the each incoming request we use->types of request//methods of https these are same
+
+//methods of http:-http method mdn 
+//->get,post,patch,put,delete etc 
+
+
+// 1. GET
+//fetch/get->lena server s
+
+//Ques:- why am i studiyng methods of http?
+// ANs-jo m reqest bhejta hu mere server ko us request ko hamara server do cheezo s smjhta h
+//i.e vo kis methods s bheji huyi hai i.e->get,post etc
+//i.e 2. uska path kya hai i.e "/middlewae"
+
+
+//default path='/'
+//defalut method='get'
+
+
+
+//challeges- for bar bar server ko restart kr rhe h uske liye
+//for this we use packge nodemon so install it
+//nodemon will automatically restart the server for all  saved changer
+
+
+// 2.  2http method  which are in the req object-:
+//path and query parameter(these 2 also object)
+//these are the req ke object ke andar hai path and query para (object)
+//path usage:-subreddit wali cheez(:) ko hum destructure kr skte hai using req.params;
+

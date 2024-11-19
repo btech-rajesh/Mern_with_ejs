@@ -1,0 +1,24 @@
+{
+  "name": "fig",
+  "version": "1.0.0",
+  "description": "The Fig.io NPM package",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withfig/npm.git"
+  },
+  "keywords": [
+    "fig",
+    "fig.io",
+    "autocomplete"
+  ],
+  "author": "Fig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/withfig/npm/issues"
+  },
+  "homepage": "https://github.com/withfig/npm#readme"
+}

@@ -1,0 +1,29 @@
+h1{
+text-align: center;
+/* text-decoration: line-through; */
+color: green;
+}
+h2{
+text-align: center;
+font-weight: 700;
+
+}
+h3{
+font-family: 'Courier New', Courier, monospace;
+color: plum;
+}
+div{
+ width: 300px;
+ height: 250px;
+ background-color: antiquewhite;
+
+
+}
+#btn{
+    cursor: pointer;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

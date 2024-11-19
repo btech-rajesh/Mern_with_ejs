@@ -10,20 +10,3 @@ let arr1=process.cwd()//as cwd is method/function so ()
 console.log(process.cwd())//kha khade hai
 console.log(__dirname)//apka process kha chl rha h 
 
-//question if no div by 3=<fixx and by 5=buzz
-const n=20;
-for(let i =0;i<=n;i++ ){
-     if(i%3 ==0 && i%5==0){
-        console.log("fizz && buzz")
-    }
-    if(i%3==0){
-        console.log("fizz");
-    }
-     if(i%5==0){
-        console.log("buzz");
-    }
-   
-     if(i%3 !=0 && i%5!=0){
-        console.log(i);
-    }
-}

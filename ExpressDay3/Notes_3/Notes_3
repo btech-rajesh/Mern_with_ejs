@@ -1,0 +1,27 @@
+static files:-
+i.e-.html,.css.js and images files are static files
+
+
+//views-: it is an folder which contsins .ejs file for the render templates/pages/views
+
+//public ->In this i will serve all my static files inside this folder and i can change this name also but convention-:(means as it good practice) not as it is good practice for reading and devlopment
+
+
+//both used for providing path
+//views-templates-app.set()
+//public->staticfile->app.use(express.static())
+
+
+//Get vs post
+Get =>1.this should be used to fetch/retrive the date
+
+
+//RESTful routing
+//Representational State Transfer 
+//->this is just a way/architectural style(way of writing)of
+//routes to interface with client and server
+
+//rest-RESTful-jab html,js,css ye page show krte hai exxample.
+ ,RESTapi they are two diffrent things
+
+ //RESTapi=>url hit krke data get back

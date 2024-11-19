@@ -1,0 +1,6 @@
+tags in ejs
+1. <%   %> -this is an control flow tag 
+as in html there is no lopping and other things so need of this in that case 
+
+2. <%= %>-this tag evaluate the o/p
+

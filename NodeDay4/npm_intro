@@ -1,0 +1,44 @@
+//npm init
+//this initialise my project and creates a package.json file for me
+//package.json=>project kis kis chez par dependent hai and kya kya info aapke project ke bare m avialable hai vo batata hai
+
+// npm install give-me-a-joke
+// this automatically gives you 2 new files->node_module=>all code in this means how the code is made up and kaise
+// 2nd->package-lock.json=>it stores all the info of depencies to that project
+
+
+//never sharing these 2 file 
+// becoz
+// 1. large FileSystem
+// 2. sensitive information hoti(secret)
+// (which might lead to ur desktop locking-by hacker)
+
+
+//defalut value ke sath chezo ko initialise kardega
+//npm init -y
+//for global install we use npm install -g name_package_
+//for local install we use npm install name_package
+
+//to uninstall packages we use npm uninsatll package_name
+
+
+//to delete something
+//rm(remove) -r(recursively)/-f(forcefully)->it remove folders only e.g like->package-lock.json
+//rm -r ->-r is removes recursively for directory  e.g-node_module(directory)
+
+
+//if there is a dependency in package.json file ->then it can run using 'npm install/i' which insatll packeg related to depenceis pacakge
+//rmdir->it directly remove the directry
+
+
+
+
+// ----------------------------
+
+// MERN->mongodb,express.js,react,nodejs
+
+// q1:- what is express?
+// ans:-it is an framework
+//q2:- what does it do?
+// ans:-to create/help a web server 
+

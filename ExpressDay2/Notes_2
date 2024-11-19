@@ -1,0 +1,38 @@
+//-> req ke andar query parameter obj
+
+// http-protocol
+// localhost:8090-resource url
+// ?-query string after ? or the the query parameter
+// params:
+// query ?
+// ----------------------------------------------------
+
+// from express to now -:
+//nodemon it an 3rd party package so install no require it (using this server is automatically start)
+//it only helps in script in package.json file to run a js file bs
+
+//1.
+// server bnata h express->it is an packeg of 3rd party package->since it is a 3rd party package so i need to install it ->i need to require for usage it->
+
+//require -sends/return the function->call krte h func->then hme obj milta hai
+//i.g app->this is an obj/instance
+
+// 2.
+//jb bhi hm req bhejte h server ke pass it stores in two obj (req,res)obj
+//req-ke andr m 2 things we study i.e->params(:) (subreddit) and query(?) to see query parameter
+//and jb tk aap res.send ni krte h jb tk server gol gol ghumta rhta hai
+
+
+//methods usage-:
+//'get->retrive/fetch->to server
+//post-to send data-to save and send to server
+//use-ek middleware h( jo ki all incoming req) p chlta h 
+//all incoming req means-chahe methoda ho post/get/put no frk it will run middleware
+//    and for path pr bhi no frk
+
+
+
+// ---------------------------------------------------------
+
+
+//Templating...?
