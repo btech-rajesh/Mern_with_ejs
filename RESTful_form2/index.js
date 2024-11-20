@@ -72,10 +72,7 @@ app.get('/blogs/:id',(req,res)=>{
     let {id}=req.params;
     console.log(id);
     let foundcomment=comments.find((comment)=>comment.id==id)
-    if (!foundcomment) {
-        return res.status(404).send('Comment not found'); // Send a 404 response if not found
-    }
-        // res.send("show particular page")
+
         res.render('show',{foundcomment});
         console.log(req.params);
         console.log(`{Username:${foundcomment.username} && comment: ${foundcomment.comment}}`);
@@ -83,6 +80,11 @@ app.get('/blogs/:id',(req,res)=>{
         
 })
 
+
+//task-5=show edit form of one blog
+app.get('/blogs/:id/edit',(req,res)=>{
+    
+})
 
 
 app.listen(8090, ()=>{
