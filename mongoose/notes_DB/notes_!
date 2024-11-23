@@ -1,0 +1,36 @@
+
+//DB-model is a js class and collection of similar kind of data
+//data=collection of properties
+
+//example=>Irctc website
+//information=>meaningfull/useful data
+//model cant create directly 
+
+//why dont we use file system
+//ans=>ineeficiency,delete/loss of data and ** data redundancy(data repetition like
+when data stores at 2 locations and at one location data is changed but it not reflect to diffrent so it cause to data duplicacy/repetation and efficient ,serching difficulty,limited data )
+
+
+//type of db=>
+//1. sql-this is query language it is not a database
+//vo databse jo ot/result  show krvan k liye sql  queries ka use krte h bs
+
+//2.NOsql=>which not use sql
+
+
+
+//what is database mangment system=>
+//1. software
+//type=>rdbms and Nrdbs relation(tables-row,column) and non relational
+
+
+//Nosql DB=>
+//1. not have table only stores in object form the data
+
+
+//which database we use?
+//theorm cap=>consistency,Availabilty(website user visits example nosql),Partition tolerance(it data is change in cloud then it should also reflect in is usa databse (sqland no)=>will not have any effect these  r same here)
+
+
+
+

@@ -1,0 +1,96 @@
+//nosql=>mongoose
+// ques-why mongoose?
+//ans-used widely ,easy syntax
+//command=>to check
+
+      // moongos shell=>mongosh
+      //exit=ctrl+c 2 times
+      //show databse/dbs/databses
+      //test>default db and no use of this
+      //check for which db=>db -check current databse
+      //use DB_Name i.e-use ShopApp to switch to db other and create new db
+
+      //NEVER USE THIS COMMANDS IN THE DATABASE
+      //to drop db->dp.dropDatabase()-it will remove this databse as we drop it so never use it
+
+
+      //Ques->what is collection->
+      //NOsql->INplace of table we have collection.
+      //what is Document?
+      //ANs-Each atomic entity inside a collection is a docu-dom and Db but this is for DB here for obejct 
+      //docu-collection-db(nosql)
+
+
+      //QUES->How data is stored in db
+      //Ans->Not json but Bson(Binary Bson i.e in bit form ) because it faster than jason and occupy more space json 
+      // json-it supports less basic datatypes, bson-it stores more basic datatypes
+
+
+// mongoose is an object 
+//connect accepts string only to provide the port for req and res
+// which returns a promises- for resolve(.then) and it will reject (.catch) for connect -it is an method
+//it will provide a ODM layer b/w server and mongoose
+
+
+// ----------------------------------------------
+//for the interect with my db for nosql ODM(Mongoose) -db collection(when interect with shell and everything is a document) &i used  Models(it is an js class this represents collection )
+//In the mongoose shell i have creted i.e movies db in which i have created a collection for movies ie.name,imdb eTC
+//But in the same i have for models but these r the js files collections
+
+
+//In order to create a collection using schema(blueprint)
+//as i cannot make models directl
+
+//schema-> to model for js( & collection for shell)-db se connect krung.
+
+//data -db mai json/bson m store krta h 
+//server is sending the data to db i.e express.js i.e some js files  
+
+
+// **** for server it have js file -ODM which convert these into json/bson file for db and from db-server usable js convert 
+//ODM mongoose -it maps the data
+
+
+//data -usable js obj-schema tells how the data will be mapped
+// i.e {name:'raja'-it is a string
+    // imdb:8,-it is a no
+    //now schema decide the name-string and imdb-number
+
+
+    //for the shell we get a automatically id by Mongodb
+    //But in this mongoose will provide id for express
+
+    //for express -we have mongoose
+    //for shell -we have mongodb
+
+    //  }
+
+
+
+
+//for create this model we need a schema before model
+
+
+//creation of schema mvp,mvc
+//mvc=module view controller
+//i have made modules folder in which Product.js a file
+
+//schema and module are the part of mongoose so i will require it
+//firstly i will make a schema in models folder
+
+//route foleder for all the api's and templeates and req all that 
+
+
+
+//lect-52
+//Every single entity is a document jab bhi mai ek document/object add krunga MOngodb ,automatically us doc ke pass ek unique id generate hogi
+//i.e-apple have unique id
+
+
+
+//model for db stroring save() method 
+//js method ki wjah s als s .save()
+ krna pdha 
+ //.save();
+ //is automatically save for create() and insertMany()
+

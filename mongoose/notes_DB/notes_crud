@@ -1,0 +1,49 @@
+
+
+//DATABASE CREATION
+
+// ----------------------------------------------------------
+
+//for crud we have db-have diffrent collection-document ke andr crud
+
+// step1.make a db 
+
+//make a collection with entity using db.movies.insertOne({pass an object})
+//Ans-db-current db, movies-collection,insertOne({})-mongodb method which accept only obj with key-value pair.
+
+//Read
+//show collections cmd for check 
+//for movies collection find db.movies.find({}) or find()  as we r here to check for collection entity and also can change condition .
+
+
+//Create->
+//to insert many value/entity in db=>
+    //db.movies.insertMany({},{},{}) using this an array we can do this ([{},{},{}])
+//and our db will provide a unique id automatically
+
+
+//Read
+//TO find  and read with a condition->
+//i.e imdb=6  and name=spiderman for this find
+//db.movies.find({imdb:6,name:"spiderman"}) so for find we can do this
+
+//Update
+//for the updation of an particular entity  we use this
+
+//db.movies.updateOne({kisko update },{kya update krna h})
+//for updatetion id will not change it remains the same
+
+//for the many update
+//update db.movies.updateMany({name:"movies_name"},this is an $set objevt{$set:{name:"king2",imdb:8}}) here i no array is used for update only here kisko change krna,kya change krna bs
+
+
+//Delete
+//db.movies.deleteOne({name:"flash"})
+
+//for del many
+///db.movies.deleteMany({name:"flash"}or provide a imdb:9 )
+// /db.movies.deleteOne({})//it will delete the first one
+// db.movies.deleteMany({}) delet all the 
+
+
+

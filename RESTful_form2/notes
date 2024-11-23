@@ -1,0 +1,19 @@
+// http method->put and patch to update the actual in the database or the array for the  edit.ejs file 
+
+//both used to edit k kaam m
+
+//put-
+// 1. jb mujhe sara ka sara or all the field data i want to change
+
+
+//patch
+// 1. jb partial changes karne ho i.e not all the field need to change
+
+
+//In the form we can only use methods get and post 
+
+//In post->we can play with server -i.e{new,edit,delete},but
+// for the edit.ejs i need to update the data  so to change the form post to patch i need over riding 
+
+//methoda overridding =>
+    //change the http method to difrent one ,i.e- post-patch for this we have npm 

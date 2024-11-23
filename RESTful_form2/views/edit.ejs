@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <!-- action-: it is the url or where the form will go -->
+   
+
+ 
+
+ 
+   <fieldset>
+      <legend>Form for editing form</legend>
+      <!-- ?_method=patch method change using patch -->
+      <form action="/blogs/<%= foundcomment.id %>?_method=patch" method="post">
+        
+     
+     
+     <label for="comment">Comment:</label>
+     <input type="text" name="comment" id="comment" value="<%= foundcomment.comment %>">
+     <hr><br>
+     <button type="submit" id="btn">Edit Form</button>
+
+     
+      </form>
+     
+   </fieldset>
+
+
+
+</body>
+</html>

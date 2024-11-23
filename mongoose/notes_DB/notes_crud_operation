@@ -1,0 +1,52 @@
+//mongoDb operations
+
+
+//comparision operators
+
+// 1. euqals->$eq
+//db.movies.find({imdb:{$eq:8}})
+
+//2.greater than | equals
+//$gt | $gte
+//db.movies.find({imdb:{$gte:8}})
+
+// $eq	Equal to	{ imdb: { $eq: 50 } }
+// $ne	Not equal to	{ imdb: { $ne: 50 } }
+// $lt	Less than	{ imdb: { $lt: 50 } }
+// $lte	Less than or equal to	{ imdb: { $lte: 50 } }
+// $gt	Greater than	{ imdb: { $gt: 50 } }
+// $gte	Greater than or equal to	{ imdb: { $gte: 50 } }
+// $in	In an array of values	{ category: { $in: ['Furniture', 'Electronics'] } }//inside
+//db.movies.find({imdb:{$in:['spiderman',90]}})//array used for for values
+// $nin	Not in an array of values	{ category: { $nin: ['Furniture', 'Electronics'] } }
+
+
+//LOGICAL OPERATOR
+
+//1.ANd $and
+//db.movies.find({$and:[ {imdb:{$gt:6}},{imdb:{$lt:10}} ]})//for more values we use array
+
+//2. or $or
+//db.movies.find({$or:[{imdb:{$gt:5}},{imdb:{$lt:8}}]})
+
+
+
+// ------------------------------------------
+
+//ques-we made applicatin code over vscode so for
+// db we come over vscode ..?
+//ans-mongodb-shell(mongosh)
+//for express-vscode
+
+//how we will interect with express<-->mongodb
+//we cannot connect it directly
+
+//so we create a layer b/w this a additional laye
+
+//layer mongosse ODm layer for direct interect for nosql
+//for nosql we have ODM(obj docu model)
+//for sql we have ORM
+
+
+
+

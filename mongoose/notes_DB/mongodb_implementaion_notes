@@ -1,0 +1,43 @@
+//notes folder have its basic notes
+
+//git and github part for db
+
+//both are diffrent thing
+
+//GIT->
+
+//suppose->we have a 
+//project->v1(version),v2,v3,v4.....vn;
+//so here git is used to maintain the history of project
+
+//so basicly git used for version control system
+
+//why git-vcs
+//to synchronise(means sbka code code har jgah nazar aye or reflect ho) the code of all the team project we use vcs
+
+//vcs type-bit keeper,mercury,Git
+
+
+//git story in this linux kernal-made by linuc and he made a open sourece in which every can contributes his/her edit code or bugs ..so he got more than 1k request from all then 2 of them made a git for this synchronise code
+
+//Git have 2 version-Centralised vsc and distributes Git
+
+//1.centralised vcs-
+//1. code is present at one place & everybody who changes it directly get reflected
+//2. we need online or net ex-google sheet
+//3. No backup is available 
+
+//2.Distributed Git
+//1. code is present at a place & baki log copies that code and make their own change
+//2. No net reuire
+//3.Backup is available
+
+
+
+//Hoe git works
+
+
+
+
+
+

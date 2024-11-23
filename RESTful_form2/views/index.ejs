@@ -18,6 +18,12 @@
             <h2>Name is: <%= i.username %></h2>
             <h3>Comment is: <%= i.comment %></h3>
             <a href="/blogs/<%= i.id %>">Show me</a>
+            <br>
+            <a href="/blogs/<%= i.id %>/edit">Edit me</a>     <br>
+            <form action="/blogs/<%= i.id %>?_method=DELETE" method="POST">
+                <!-- for method overriding i have to used a form for the post/get -->
+               <button>Delete</button>
+            </form>
             <!-- for a particular i have a anchor tag  -->
        
        </div>
