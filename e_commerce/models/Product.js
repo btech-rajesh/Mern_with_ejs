@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-
+const Review=require('./Review');
 
 //schema blur-print-
 const productSchema=new mongoose.Schema({
@@ -24,8 +24,33 @@ const productSchema=new mongoose.Schema({
         type:String,
         trim:true,
     },
+    reviews:[
+        //for many reviews we need array
+        {
+            //here i am store reviews id
+            type:mongoose.Schema.Types.ObjectId,
+            //for ref of what here review ref(mujhe id uthani h model review k s )
+            ref:'Review'
 
-})
+        }
+    ]
+
+});
+
+//moddleware jo BTS(behind the seen) mongodb operations krwane pr use hota h and iske andr pre and post middleware hote h
+//which r basically used over the schema and before the model
+
+//model is js class
+
+//
+productSchema.post('findOneAndDelete',async function(product){//here post means middle ware chle k bad it is use for reviews deletion 
+    //behind this middle we use this for findByIdAndUpdate()-it use a middle findOneAndDDelete/Update()
+
+    //pre and post are the schema middle use in schema only-so here i have these in Product.js schema file
+    if(product.reviews.length>0){
+      await  Review.deleteMany({_id:{$in:product.reviews}})
+    }
+});
 
 
 //Schema for the model
