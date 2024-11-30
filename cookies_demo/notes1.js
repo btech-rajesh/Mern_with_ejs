@@ -27,5 +27,15 @@
 //security provide more cookies(client side storage) and average info stored in this & session(as it is server side storage)and server side stores sensitive info as server side storage are better and more secure
 //advance version in cookies which is signed cookies i.e {Bakaar} as cookies are not secure 
 
-//signed cookies package we get using cookie-parse documentation
+//signed cookies package- we get using cookie-parse documentation package
+
+
+// -----------------
+//session-store object key pair
+// (stores session Id)<-cookies k andar <-res
+// session-it is server side storage and sever allocate some space for sensitive info
+//hr req k sath cookies bhi jati hai
+//it have session packages i.e express-session
+
+
 

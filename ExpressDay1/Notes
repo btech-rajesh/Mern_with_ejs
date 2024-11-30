@@ -31,7 +31,7 @@
 //Ques:- why am i studiyng methods of http?
 // ANs-jo m reqest bhejta hu mere server ko us request ko hamara server do cheezo s smjhta h
 //i.e vo kis methods s bheji huyi hai i.e->get,post etc
-//i.e 2. uska path kya hai i.e "/middlewae"
+//i.e 2. uska path kya hai i.e "/middleware"
 
 
 //default path='/'
