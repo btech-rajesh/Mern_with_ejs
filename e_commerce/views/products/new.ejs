@@ -1,5 +1,6 @@
 <% layout('layouts/boilerplate') %>
 <%- include('../partials/navbar') %>
+<%- include('../partials/flash') %>
  
    
     <div class="row">
@@ -80,12 +81,12 @@
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
   const forms = document.querySelectorAll('.needs-validation')
 
-  // Loop over them and prevent submission
+  // Loop over them and prevent submission in anyfield is left empty it does not allow anyone to edit form
   Array.from(forms).forEach(form => {
     form.addEventListener('submit', event => {
       if (!form.checkValidity()) {
         event.preventDefault()
-        event.stopPropagation()
+        event.stopPropagation()//this is for client validation using try cache block in router
       }
 
       form.classList.add('was-validated')

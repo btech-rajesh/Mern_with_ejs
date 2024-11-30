@@ -61,18 +61,25 @@
 
 
 
-//validation->e.g-mandtory thing,form not be empty,age not be -ve
+//validation->examples=>e.g-mandtory thing,form not be empty,age not be -ve
 //type-client side-bootstrap eg-validation(required keyword) and novalidation keyword -finish the existance of required keyword
 //,server side validation-approval for server side
 //i have also used required in my schema of product name.
+// ---------------------------------------------------
 
 
+//after try cache server side validation is start
 
-//server side validation-for using Joi in the backed server side validation
-//npm package most powerfull work over schema descripted works on data validator
-//stp1. we have to make schema it make a new schema for it
-//stp2.jha pr bhi ise rkhunga ise validate krunga
-//it is an method
+
+//ssv->server side validation-for using Joi in the backed server side validation
+//npm package most powerfull work over schema descripted lang -it  works for data validator
+
+//steps to done joi ssv=>
+//stp1. we have to make schema it make a new schema for it or alg schema bnega iska
+//stp2.jha pr bhi m ise rkhunga ise validate krunga i.e-validate-it is an method
+
+
+//it is a backend part so this we use package joi for ssv
 
 
 

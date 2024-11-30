@@ -42,7 +42,7 @@ const productSchema=new mongoose.Schema({
 
 //model is js class
 
-//
+//here this product is pass as a id for the this middle for deleteion 
 productSchema.post('findOneAndDelete',async function(product){//here post means middle ware chle k bad it is use for reviews deletion 
     //behind this middle we use this for findByIdAndUpdate()-it use a middle findOneAndDDelete/Update()
 
